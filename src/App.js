@@ -13,7 +13,7 @@ import Tableware from './component/Tableware/Tableware';
 export function App() {
   let routers = createBrowserRouter([
     {
-      path: '/desa', element: <Layout />, children: [
+      path: '', element: <Layout />, children: [
         { path:'Plantpots', element:<Home/> },
         { path: 'Ceramics', element:<SecHome /> },
         { path: 'chairs', element:<Chairs /> },
